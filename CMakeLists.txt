@@ -165,55 +165,55 @@ ADD_SUBDIRECTORY(intersections)
 ENDIF(GoTools_COMPILE_MODULE_intersections)
 
 OPTION(GoTools_COMPILE_MODULE_trivariate
-  "Compile the GoTools module trivariate?" ON)
+  "Compile the GoTools module trivariate?" OFF)
 IF(GoTools_COMPILE_MODULE_trivariate)
 ADD_SUBDIRECTORY(trivariate)
 ENDIF(GoTools_COMPILE_MODULE_trivariate)
 
 OPTION(GoTools_COMPILE_MODULE_topology
-  "Compile the GoTools module topology?" ON)
+  "Compile the GoTools module topology?" OFF)
 IF(GoTools_COMPILE_MODULE_topology)
 ADD_SUBDIRECTORY(topology)
 ENDIF(GoTools_COMPILE_MODULE_topology)
 
 OPTION(GoTools_COMPILE_MODULE_compositemodel
-  "Compile the GoTools module compositemodel?" ON)
+  "Compile the GoTools module compositemodel?" OFF)
 IF(GoTools_COMPILE_MODULE_compositemodel)
 ADD_SUBDIRECTORY(compositemodel)
 ENDIF(GoTools_COMPILE_MODULE_compositemodel)
 
 OPTION(GoTools_COMPILE_MODULE_trivariatemodel
-  "Compile the GoTools module trivariatemodel?" ON)
+  "Compile the GoTools module trivariatemodel?" OFF)
 IF(GoTools_COMPILE_MODULE_trivariatemodel)
 ADD_SUBDIRECTORY(trivariatemodel)
 ENDIF(GoTools_COMPILE_MODULE_trivariatemodel)
 
 OPTION(GoTools_COMPILE_MODULE_qualitymodule
-  "Compile the GoTools module qualitymodule?" ON)
+  "Compile the GoTools module qualitymodule?" OFF)
 IF(GoTools_COMPILE_MODULE_qualitymodule)
 ADD_SUBDIRECTORY(qualitymodule)
 ENDIF(GoTools_COMPILE_MODULE_qualitymodule)
 
 OPTION(GoTools_COMPILE_MODULE_isogeometric_model
-  "Compile the GoTools module isogeometric_model?" ON)
+  "Compile the GoTools module isogeometric_model?" OFF)
 IF(GoTools_COMPILE_MODULE_isogeometric_model)
 ADD_SUBDIRECTORY(isogeometric_model)
 ENDIF(GoTools_COMPILE_MODULE_isogeometric_model)
 
 OPTION(GoTools_COMPILE_MODULE_lrsplines2D
-  "Compile the GoTools module lrsplines2D?" ON)
+  "Compile the GoTools module lrsplines2D?" OFF)
 IF(GoTools_COMPILE_MODULE_lrsplines2D)
 ADD_SUBDIRECTORY(lrsplines2D)
 ENDIF(GoTools_COMPILE_MODULE_lrsplines2D)
 
 OPTION(GoTools_COMPILE_MODULE_lrsplines3D
-  "Compile the GoTools module lrsplines3D?" ON)
+  "Compile the GoTools module lrsplines3D?" OFF)
 IF(GoTools_COMPILE_MODULE_lrsplines3D)
   ADD_SUBDIRECTORY(lrsplines3D)
 ENDIF(GoTools_COMPILE_MODULE_lrsplines3D)
 
 OPTION(GoTools_COMPILE_MODULE_viewlib
-  "Compile the GoTools module viewlib?" ON)
+  "Compile the GoTools module viewlib?" OFF)
 IF(GoTools_COMPILE_MODULE_viewlib)
 ADD_SUBDIRECTORY(viewlib)
 ENDIF(GoTools_COMPILE_MODULE_viewlib)
