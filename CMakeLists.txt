@@ -108,7 +108,7 @@ SET(GoTools_ALL_COMPILE 1)
 
 # Compile apps and examples
 OPTION(GoTools_COMPILE_APPS
-       "Compile applications?" ON)
+       "Compile applications?" OFF)
 
 
 # Compile unit test - depends on Boost
