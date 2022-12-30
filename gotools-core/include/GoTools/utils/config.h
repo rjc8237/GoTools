@@ -65,7 +65,7 @@ using boost::dynamic_pointer_cast;
 using boost::const_pointer_cast;
 using boost::static_pointer_cast;
 #include <boost/static_assert.hpp>
-#define static_assert(x, msg) BOOST_STATIC_ASSERT(x)
+//#define static_assert(x, msg) BOOST_STATIC_ASSERT(x)
 #include <boost/type_traits.hpp>
 using boost::is_floating_point;
 #else
